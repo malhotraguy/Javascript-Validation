@@ -1,4 +1,4 @@
-var Password = prompt("enter Password");
+var Password = prompt("Enter Password","******");
 
 
 
@@ -12,7 +12,7 @@ var IsValid= (cond1)&& (cond2) && (cond3) && (cond4) ;
  alert("Your password does not meet the criteria of security"); 
  }
  else{
- var Conformation = prompt("Enter the Password again!");
+ var Conformation = prompt("Enter the Password again!","******");
  var IsIdentical =(Password==Conformation);
  if (IsIdentical==true){
  alert("You have set your password correctly.");
