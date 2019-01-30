@@ -1,7 +1,5 @@
 var Password = prompt("Enter Password","******");
 
-
-
 function Program(Password){
 var cond1 = ((Password.length) <= 9) && ((Password.length)>= 5);// checking the length
 var cond2 = (Password.charAt (0)) != (Password.charAt (Password.length-1));// checking the 1st and last character is not same
@@ -22,4 +20,5 @@ var IsValid= (cond1)&& (cond2) && (cond3) && (cond4) ;
  }
      }
                          }
+
 Program(Password);
